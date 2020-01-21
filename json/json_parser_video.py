@@ -8,8 +8,7 @@ with open('metadata.json') as json_file:
     json_data = json.load(json_file)
 
     # 번호 바뀔때마다 metadata.json 해당파일로 바꿔주기
-    # 프레임 자르는중 - 13번
-    # json parsing video - 13번 해야됨
+    # dir 번호만 바꿔주면 됨
 
     # 각 영상별 input ouput 위치
     input_dir = "G:\\Facebook_Dataset_video\\dfdc_train_part_01\\dfdc_train_part_1"
