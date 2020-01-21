@@ -12,13 +12,13 @@ with open('metadata.json') as json_file:
     # json parsing video - 13번 해야됨
 
     # 각 영상별 input ouput 위치
-    input_dir = "G:\\Facebook_main_image\\dfdc_train_part_20"
+    input_dir = "G:\\Facebook_Dataset_video\\dfdc_train_part_00\\dfdc_train_part_0"
     input_list = os.listdir(input_dir)
 
-    output = "G:\\DFDC_img\\dfdc_train_part_20\\"
+    output = "G:\\Facebook_Dataset_video\\dfdc_train_part_00\\"
     # real, fake output 경로
-    output_real = output + "dfdc_train_20_real\\"
-    output_fake = output + "dfdc_train_20_fake\\"
+    output_real = output + "dfdc_train_00_real\\"
+    output_fake = output + "dfdc_train_00_fake\\"
 
     # output 폴더 없으면 생성
     if not os.path.exists(output):
