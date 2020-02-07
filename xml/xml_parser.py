@@ -1,6 +1,6 @@
 from xml.etree.ElementTree import parse
 
-tree = parse("alcymltoqb 09_0.xml")
+tree = parse("./before/R_aabqyygbaa 01_0_0.xml")
 root = tree.getroot()
 
 folder = root.findtext("folder")
